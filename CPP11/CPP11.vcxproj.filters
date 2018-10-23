@@ -24,15 +24,18 @@
     <ClInclude Include="catch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="move_semantics.cpp">
+    <ClCompile Include="sort_problem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="move_semantics_tests.cpp">
+    <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
