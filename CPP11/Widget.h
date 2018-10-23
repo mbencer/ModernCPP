@@ -71,6 +71,7 @@ namespace ModernCpp
 		Widget(Widget&& widget) noexcept
 			: _buffer(widget._buffer), _id(widget._id)
 		{
+			std::cout << "Move ctor begins with copy object with id=" << widget._id << std::endl;
 			widget._id = -1;
 			widget.bufferSize = 0;
 			widget._buffer = nullptr;
